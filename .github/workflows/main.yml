@@ -1,0 +1,13 @@
+.github/workflows/main.yml
+name: Hello Actions
+
+on: [push]
+
+jobs:
+  say-hello:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Echo message
+        run: echo "Hello from GitHub Actions!"
+Add hello workflow
+Add GitHub Actions workflow
